@@ -3082,7 +3082,7 @@ function DJSchedule() {
                         break;
                     
                     case 18:
-                        let text18 = "Sister. Sister? Sista!";
+                        let text18 = "Sista!";
                         // Change innerHTML of bio to text
                         if (document.getElementById("bio").innerHTML !== text18)
                             document.getElementById("bio").innerHTML = text18;
