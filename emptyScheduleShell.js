@@ -2752,6 +2752,7 @@ function DJSchedule() {
                         break;  
             }
             break
+// SATURDAY
         case 6:
             switch(nextDate.getHours()) {
                 case 0:
@@ -2889,7 +2890,7 @@ function DJSchedule() {
                         DJshowLogo6.style.backgroundImage = "url('https://titanradio.org/wp-content/uploads/2023/03/vMr9sj74.png')";
                         break
                     case 7:
-                        let text7 = "";
+                        let text7 = "Sonic Youth";
                         //change innerHTML of bio to text
                         if(document.getElementById("bio").innerHTML !== text7)
                                 document.getElementById("bio").innerHTML = text7;
@@ -2897,8 +2898,8 @@ function DJSchedule() {
                         let DJname7 = document.getElementById("DJname");
                         let DJbio7 = document.getElementById("DJbio");
                         let DJshowBio7 = document.getElementById("DJshowBio");  
-                        if(DJname7.innerHTML !== "")
-                            DJname7.innerHTML = "";
+                        if(DJname7.innerHTML !== "Ricke")
+                            DJname7.innerHTML = "Ricke";
                         if(DJbio7.innerHTML !== "")
                                 DJbio7.innerHTML = "";
                         if(DJshowBio7.innerHTML !== "")
